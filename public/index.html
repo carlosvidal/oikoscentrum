@@ -635,7 +635,11 @@
             const triggers = Array.from(document.querySelectorAll('[data-toggle="collapse"]'));
 
             // Listen for click events, but only on our triggers
-            window.addEventListener('click', (ev) => {
+            window.addEventListener("click", callback);
+            window.addEventListener("touchstart", callback);
+
+            function callback(ev) {
+
                 console.log('click');
 
                 const elm = ev.target;
