@@ -616,6 +616,8 @@
     <script>
         //equivalente a document.ready de jquery
         window.addEventListener("DOMContentLoaded", (event) => {
+            console.log('DOMContentLoaded');
+
             // map our commands to the classList methods
             const fnmap = {
                 'toggle': 'toggle',
@@ -631,10 +633,12 @@
 
             // Grab all the trigger elements on the page
             const triggers = Array.from(document.querySelectorAll('[data-toggle="collapse"]'));
+
             // Listen for click events, but only on our triggers
             window.addEventListener('click', (ev) => {
+                console.log('click');
+
                 const elm = ev.target;
-                console.log('hola');
                 if (triggers.includes(elm)) {
                     const selector = elm.getAttribute('data-target');
                     collapse(selector, 'toggle');
