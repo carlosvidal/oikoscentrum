@@ -103,9 +103,9 @@ meter {
 }
 
 :root {
-  --color-rojo: #930608;
-  --color-verde: #016023;
-  --color-azul: #0a027c;
+  --color-rojo: #940000;
+  --color-verde: #006c17;
+  --color-azul: #320085;
   --color-marron: #775c2d;
   --color-mostaza: #ddac3a;
   --bg-verde: #e1efe2;
@@ -220,14 +220,19 @@ p {
   hyphens: auto;
 }
 
-small {
+small,
+.small {
+  display: block;
   font-size: 0.75rem;
   line-height: 3.3333333333ex;
-  margin: 3.3333333333ex 0;
 }
 
 .text-right {
   text-align: right;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-serif {
@@ -237,6 +242,19 @@ small {
 sup {
   vertical-align: super;
   font-size: smaller;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.my-0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 .navegacion {
@@ -294,6 +312,101 @@ sup {
   }
 }
 /* MEDIA QUERIES DOWN * * * * * * * * * * * * * * * * * * * * * * * * * * * * ** * * * * * * * * * * * * * * * * * * * * * */
+.user-session {
+  background: #000;
+  color: #fff;
+  text-align: right;
+  font-size: 0.75rem;
+  padding: 0.5em 1em;
+  display: grid;
+  grid-column-gap: 5px;
+  align-items: center;
+}
+.user-session label,
+.user-session input,
+.user-session button {
+  font-size: inherit;
+  padding: 0.2em;
+  margin: 0.1em 0.2em;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  text-align: left;
+}
+.user-session .InputAddOn {
+  display: flex;
+  width: 100%;
+}
+.user-session a.btn {
+  border: 1px solid #333;
+  background-color: #333;
+  color: #fff;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  line-height: 1.6em;
+  text-align: center;
+}
+.user-session form.keep-me-posted {
+  margin: 0;
+  padding: 0.5em 1em;
+  left: auto;
+  margin: 0;
+  padding: 0;
+}
+.user-session form.keep-me-posted input#email {
+  display: inline-block;
+  margin: 0;
+  border: 1px solid #333;
+  background-color: #000;
+  flex: 1;
+  color: #ccc;
+}
+.user-session form.keep-me-posted button {
+  margin: 0;
+  border: 1px solid #333;
+  background-color: #333;
+  color: #fff;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  text-align: center;
+}
+
+.login-modal h2 {
+  text-align: center;
+}
+.login-modal form.login-form fieldset {
+  border: none;
+  padding: 0 0 15px 0;
+}
+.login-modal form.login-form fieldset label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  color: #666;
+}
+.login-modal form.login-form fieldset input {
+  width: 100%;
+}
+.login-modal form.login-form button.btn {
+  margin: 0;
+  border: 1px solid #333;
+  background-color: #333;
+  color: #fff;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  text-align: center;
+}
+
+/* MEDIA QUERIES UP * * * * * * * * MEDIA QUERIES UP * * * * * * * * MEDIA QUERIES UP * * * * * * * * MEDIA QUERIES UP * */
+@media (min-width: 62em) {
+  .user-session {
+    grid-template-columns: 3fr 1fr auto auto;
+    grid-template-rows: 1fr;
+  }
+}
+/* MEDIA QUERIES DOWN * * * * * * * MEDIA QUERIES DOWN * * * * * * * MEDIA QUERIES DOWN * * * * * * * MEDIA QUERIES DOWN * */
 *,
 ::after,
 ::before {
