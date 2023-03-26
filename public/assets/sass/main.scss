@@ -4,11 +4,16 @@
 @import "util";
 @import "navegacion";
 @import "user-session";
+@import "splash";
 
 *,
 ::after,
 ::before {
   box-sizing: border-box;
+}
+
+html {
+  scroll-padding-top: 4rem;
 }
 
 a {
