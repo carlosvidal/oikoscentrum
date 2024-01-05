@@ -1,11 +1,5 @@
 <script setup>
 import { ref } from 'vue'
-
-defineProps({
-    msg: String,
-})
-
-const count = ref(0)
 </script>
 
 <template>
@@ -29,17 +23,18 @@ const count = ref(0)
     </div>
     <!-- NAVEGACION -->
     <nav class="navegacion">
-        <a href="#oikoscentrum" class="navegacion__item navegacion__item-oikos">
-            <strong>OIKOS</strong><span>CENTRUM</span> </a>
-        <a href="#incubator" class="navegacion__item navegacion__item-incubator"> <strong>INCUBATOR</strong><span>BASIC
+        <router-link to="/oikos-centrum" class="navegacion__item navegacion__item-oikos">
+            <strong>OIKOS</strong><span>CENTRUM</span> </router-link>
+        <router-link to="/incubator" class="navegacion__item navegacion__item-incubator">
+            <strong>INCUBATOR</strong><span>BASIC
                 SOCIAL
-                RESEARCH</span> </a>
-        <a href="#laboratory" class="navegacion__item navegacion__item-laboratory">
-            <strong>LABORATORY</strong><span>APPLIED SOCIAL RESEARCH</span> </a>
-        <a href="#antenna" class="navegacion__item navegacion__item-antena"> <strong>ANTENNA</strong><span>CULTURAL
+                RESEARCH</span> </router-link>
+        <router-link to="/laboratory" class="navegacion__item navegacion__item-laboratory">
+            <strong>LABORATORY</strong><span>APPLIED SOCIAL RESEARCH</span> </router-link>
+        <router-link to="/antenna" class="navegacion__item navegacion__item-antena"> <strong>ANTENNA</strong><span>CULTURAL
                 ACTION &
-                EDUCATION</span> </a>
-        <a href="#campaings" class="navegacion__item navegacion__item-climateactionnow">
-            <span>CLIMATE</span><span class="color-rojo">ACTION</span><span>NOW!</span> </a>
+                EDUCATION</span> </router-link>
+        <router-link to="/climate-action-now" class="navegacion__item navegacion__item-climateactionnow">
+            <span>CLIMATE</span><span class="color-rojo">ACTION</span><span>NOW!</span> </router-link>
     </nav>
 </template>
