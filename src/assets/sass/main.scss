@@ -1,0 +1,109 @@
+@import "normalize";
+@import "colores";
+@import "typography";
+@import "util";
+@import "navegacion";
+@import "user-session";
+@import "splash";
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-padding-top: 4rem;
+}
+
+a {
+  color: var(--color-rojo);
+  text-decoration: underline;
+
+  &:hover {
+  }
+}
+
+@supports (font-size-adjust: 1) {
+  article {
+    font-size-adjust: 0.5;
+  }
+}
+
+article {
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px;
+  text-align: justify;
+  border-bottom: 1px solid;
+}
+
+.collapse {
+  display: block;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
+  &.show {
+    max-height: min-content;
+    transition: max-height 0.5s ease-in-out;
+    background-color: aliceblue;
+    padding: 0 1em;
+  }
+}
+[data-toggle] {
+  display: flex;
+  cursor: pointer;
+  &::after {
+    content: "▼";
+    margin-left: auto;
+    margin-right: 0;
+    font-size: 1rem;
+  }
+}
+.pl2em {
+  padding-left: 2rem;
+}
+
+/* MEDIA QUERIES UP * * * * * * * * * * * * * * * * * * * * * * * * * * * *  * * * * * * * * * * * * * * * * * * * * * * * */
+// Small devices (landscape phones, 34em and up)
+@media (min-width: 34em) {
+  // AQUI NO DEBERIA IR NADA PORQUE ESTAMOS DISEÑANDO MOBILE FIRTS
+}
+
+// Medium devices (tablets, 48em and up)
+@media (min-width: 48em) {
+}
+
+// Large devices (desktops, 62em and up)
+@media (min-width: 62em) {
+  article {
+    width: 70ch;
+  }
+}
+
+// Extra large devices (large desktops, 75em and up)
+@media (min-width: 75em) {
+}
+
+// Super extra large devices (large desktops, 120em and up)
+@media (min-width: 110em) {
+}
+
+/* MEDIA QUERIES DOWN * * * * * * * * * * * * * * * * * * * * * * * * * * * * ** * * * * * * * * * * * * * * * * * * * * * */
+// AQUI NO DEBERIA IR NADA PORQUE ESTAMOS DISEÑANDO MOBILE FIRTS
+
+// Large devices (desktops, less than 75em)
+@media (max-width: 74.9em) {
+}
+
+// Medium devices (tablets, less than 62em)
+@media (max-width: 61.9em) {
+}
+
+// Small devices (landscape phones, less than 48em)
+@media (max-width: 47.9em) {
+}
+
+// Extra small devices (portrait phones, less than 34em)
+@media (max-width: 33.9em) {
+}

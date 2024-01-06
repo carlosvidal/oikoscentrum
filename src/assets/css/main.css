@@ -244,6 +244,10 @@ sup {
   font-size: smaller;
 }
 
+u {
+  text-decoration: underline;
+}
+
 .mb-0 {
   margin-bottom: 0 !important;
 }
@@ -487,6 +491,8 @@ article {
 .collapse.show {
   max-height: min-content;
   transition: max-height 0.5s ease-in-out;
+  background-color: aliceblue;
+  padding: 0 1em;
 }
 
 [data-toggle] {
