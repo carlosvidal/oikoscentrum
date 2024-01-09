@@ -1,5 +1,5 @@
 <template>
-    <article id="antenna">
+    <article id="antenna" class="color-rojo">
         <h1>Antenna</h1>
         <p class="gorro"><em>Education = spread of awareness</em></p>
 

@@ -65,7 +65,10 @@
                 class="openModal" @click="openModal">
                 the end of
                 civilization.
-            </u>ological footprint of modern industrial society, that we have inaugurated a new <em>geological epoch</em>:
+            </u></p>
+
+        <p>Such is the ecological footprint of modern industrial society, that we have inaugurated a new <em>geological
+                epoch</em>:
             the Anthropocene, in which the very shape of the habitat is now in our hands …and we are about to render vast
             swaths of the planet uninhabitable, and much of the rest unbearable. Preventing this outcome presumes so
             colossal a transformation that it simply seems impossible. But such a historical shift does not happen

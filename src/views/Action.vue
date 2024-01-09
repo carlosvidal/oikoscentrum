@@ -1,5 +1,5 @@
 <template>
-    <article id="campaings">
+    <article id="campaings" class="color-marron">
         <h1>Climate Antion Now</h1>
         <p class="gorro">
             Education through action<br>
