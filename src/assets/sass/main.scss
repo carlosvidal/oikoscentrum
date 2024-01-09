@@ -71,6 +71,12 @@ article {
     text-decoration: underline;
   }
 }
+
+.openModal {
+  cursor: pointer;
+  color: var(--color-rojo);
+}
+
 .pl2em {
   padding-left: 2rem;
 }
