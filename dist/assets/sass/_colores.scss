@@ -1,0 +1,31 @@
+:root {
+  --color-rojo: #940000;
+  --color-verde: #006c17;
+  --color-azul: #320085;
+  --color-marron: #775c2d;
+  --color-mostaza: #ddac3a;
+  --bg-verde: #e1efe2;
+  --bg-azul: #eaecf9;
+  --bg-rojo: #f2e3e3;
+  --bg-marron: #eeece2;
+}
+
+.color-gris {
+  color: #555555;
+}
+
+.color-azul {
+  color: var(--color-azul);
+}
+
+.color-verde {
+  color: var(--color-verde);
+}
+
+.color-rojo {
+  color: var(--color-rojo);
+}
+
+.color-marron {
+  color: var(--color-marron);
+}
