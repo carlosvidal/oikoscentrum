@@ -1,6 +1,7 @@
 @import "normalize";
 @import "colores";
 @import "typography";
+@import "footnotes";
 @import "util";
 @import "navegacion";
 @import "user-session";
@@ -39,29 +40,51 @@ article {
 }
 
 .collapse {
-  display: block;
+  display: none;
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
+
   &.show {
+    display: block;
     max-height: min-content;
     transition: max-height 0.5s ease-in-out;
     background-color: aliceblue;
     padding: 0 1em;
+    margin: 0 1em;
+    * {
+      font-size: 0.8em;
+    }
   }
 }
 [data-toggle] {
-  display: flex;
   cursor: pointer;
-  &::after {
-    content: "▼";
-    margin-left: auto;
-    margin-right: 0;
-    font-size: 1rem;
+  font-size: 0.8em;
+  text-decoration: none;
+  // &::after {
+  //   content: "▼";
+  //   margin-left: auto;
+  //   margin-right: 0;
+  //   font-size: 1rem;
+  // }
+  &:hover {
+    text-decoration: underline;
   }
 }
 .pl2em {
   padding-left: 2rem;
+}
+
+.gorro {
+  hyphens: none;
+  font-size: 1.1em;
+  text-align: right;
+  padding-left: 3em;
+}
+
+footer {
+  border-top: solid 1px;
+  margin-top: 3rem;
 }
 
 /* MEDIA QUERIES UP * * * * * * * * * * * * * * * * * * * * * * * * * * * *  * * * * * * * * * * * * * * * * * * * * * * * */

@@ -1,25 +1,27 @@
 <template>
     <article id="incubator" class="color-azul">
         <h1>Incubator</h1>
-        <p class="text-right">
-            <em class="text-serif">
+        <p class="gorro">
+            <em>
                 What is new is not the magnitude, not even the quality, but the very essence of the coming rupture in
                 consciousness. This rupture is not a break in the line of progress to a new stage; it is not even the
                 passage
                 from one dimension to another. We can only describe it as a catastrophic break with industrial humanity’s
                 image
                 of itself.
-            </em> Ivan Illich
+            </em> <span class="text-nowrap">Ivan Illich</span>
         </p>
 
-        <p class="text-right"><em class="text-serif">Wherein lies the danger, grows also the saving power.</em> Friedrich
-            Hölderlin</p>
+        <p class="gorro"><em>Wherein lies the danger, grows also the saving power.</em> <span class="text-nowrap">
+                Friedrich
+                Hölderlin
+            </span></p>
 
         <p>The prospect of radical climate disruption changes our very understanding of economics, politics, geopolitics and
             even of history. For it now turns out that industrial society was only possible with the fossil fuels that
             provide over 80% of the world’s energy, most of which needs to be rapidly discontinued lest we precipitate
             catastrophes of biblical proportions. This pulverizes no less than humanity’s first universally shared and
-            coordinating belief: our view of history as <em class="text-serif">progress</em> (toward the commodity-intensive
+            coordinating belief: our view of history as <em>progress</em> (toward the commodity-intensive
             economies and ways
             of life
             of what were hitherto regarded as “advanced” societies). So the unprecedented existential threat spells not only
@@ -31,7 +33,7 @@
             of social organization but also our modes of relating to nature and to each other.</p>
         <p>For yes, we stand at a <u>momentous</u> point in history. <a href="#;" data-toggle="collapse"
                 data-target="#more">[
-                more ▼ ]</a></p>
+                More + ]</a></p>
         <div id="more" class="collapse">
             <p>The multidimensional or “poly-crisis” unfolding in what was long the core of the world system signals the
                 breakdown of a historical order, whose depth and implications we have barely gauged. Its most telling but
@@ -46,12 +48,16 @@
                 throughout the planet.</p>
             <p>Even if we totally ignore industrial society’s ecological impact, e.g., we face a systemic disconnect between
                 the
-                real economy and its symbolic representation. As a US economist reminded us in 1996, “Most Americans …
-                remember
-                the 1950s and 1960s, when one parent alone could earn enough to afford a car, a house, healthcare insurance,
-                and
-                college tuition, and still save about 8% of income for the future. Now, two earning parents are unable to
-                provide, without going into debt, what one was able to afford just forty years ago.” But since per capita
+                real economy and its symbolic representation. As a US economist reminded us in 1996, <em>
+                    “Most Americans …
+                    remember
+                    the 1950s and 1960s, when one parent alone could earn enough to afford a car, a house, healthcare
+                    insurance,
+                    and
+                    college tuition, and still save about 8% of income for the future. Now, two earning parents are unable
+                    to
+                    provide, without going into debt, what one was able to afford just forty years ago.”
+                </em> But since per capita
                 GDP
                 rose from ~$19K in 1960, to ~$40k in 1996, to ~$60k in 2019 (in constant 2010$), economists and politicians,
                 journalists and academics, and more generally the public they informed, kept imagining that they were
@@ -77,32 +83,49 @@
             <p>The shift to a new —“green”— “historical system” has been in the works for decades: conceptually, since
                 Nicholas
                 Geogescu-Rogen set the bases of ecological economics, and politically since the concept of “sustainable
-                development” emerged in 1987. This is a sine qua non of the very continuity of civilization. And the new
+                development” emerged in 1987. This is a <em>sine qua non</em> of the very continuity of
+                civilization. And the new
                 mantra
                 reveals that a new consensus has been established. But it has devolved into a politically and
                 programmatically
                 meaningless concept.</p>
-            <p>Indeed, as the IPCC’s latest report recalls, “sustainable development” remains at best a “meta framework” to
-                conceptually integrate “the interlinkages and interdependence of human and natural systems” and the need “to
-                balance economic, social, and environmental aspects in development planning and processes.” The problem is
+            <p>Indeed, as the IPCC’s latest report recalls, “sustainable development” remains at best a <em>“meta
+                    framework”</em> to
+                conceptually integrate <em>“the interlinkages and interdependence of human and natural
+                    systems”</em> and the need <em>
+                    “to
+                    balance economic, social, and environmental aspects in development planning and processes.”
+                </em> The problem is
                 that
-                it is notoriously subject to “acute disagreements” and difficulties in “how to measure wellbeing [and
-                define]
-                goals and means.” It has thus spawned a rich variety of concepts, including “low-carbon,”
-                “climate-compatible”
-                or “climate-resilient development,” as well as “mainstreaming,” “ecological modernisation” and “green
-                growth; or
-                then a “green economy,” “doughnut economics” and a “just transition” —never mind responses to the
+                it is notoriously subject to <em>“acute disagreements”</em> and difficulties in <em>
+                    “how to measure wellbeing [and
+                    define]
+                    goals and means.”
+                </em> It has thus spawned a rich variety of concepts, including <em>“low-carbon,”</em>
+                <em>“climate-compatible”</em>
+                or <em>“climate-resilient development,”</em> as well as <em>“mainstreaming,”</em> <em>“ecological
+                    modernisation”</em> and <em>
+                    “green
+                    growth
+                </em>; or
+                then a <em>“green economy,”</em> <em>“doughnut economics”</em> and a
+                <em>“just transition”</em> —never mind responses to the
                 impossibility
-                of fully decoupling GHG emissions from GDP, including “degrowth,” “post-growth,” “post-development,”
+                of fully decoupling GHG emissions from GDP, including <em>“degrowth,”</em> <em>“post-growth,”</em>
+                <em>“post-development,”</em>
                 existential
-                “prosperity” and ultimately “Good Living.” In a word, an array of suggestive political philosophies, from
+                <em>“prosperity”</em> and ultimately <em>“Good Living.”</em> In a
+                word, an array of suggestive political philosophies, from
                 the
-                most general to the most meaningful …but little more than slogans deprived of a clear economic plan.</p>
+                most general to the most meaningful …but little more than slogans deprived of a clear economic plan.
+            </p>
             <p>Sustainability thus remains a stubborn but elusive aspiration: for we will just keep uploading GHG into the
-                atmosphere unless and until it translates into a simple and clear set of policies commensurate with the
-                scale
-                and urgency of, to begin with, mass decarbonization. This must happen quickly. And it’s not primarily green
+                atmosphere unless and until it translates into a simple and clear set of policies <em>
+                    commensurate with the
+                    scale
+                    and urgency
+                </em>
+                of, to begin with, mass decarbonization. This must happen quickly. And it’s not primarily green
                 technologies (“new and improved” manipulation of matter) that can achieve it, but our “policy frameworks”
                 …whose
                 proper shape is far from obvious for lack of a clear conceptual framework, that ecological economics has not
@@ -110,7 +133,8 @@
                 whose
                 neoclassical method provided the organizing language of market societies. And it is now poised to specify
                 the
-                conditions of the tripartite (ecological-distributional-market) equilibrium that should catalyze the
+                conditions of the <em>tripartite (ecological-distributional-market) equilibrium</em> that
+                should catalyze the
                 emergence
                 of sustainable societies —beginning with the regulatory parameters of the rapid, drastic and harmonious
                 decarbonization required to save the future.</p>
@@ -131,27 +155,39 @@
                 or it will not be. And the ferment that will catalyze it are new ideas that allow us to better understand
                 the
                 economic, political, and cultural implications of a life-sustaining habitat, beginning with climate
-                stability. [
-                close ▲ ]</p>
+                stability. <a href="#;" data-toggle="collapse" data-target="#more">[
+                    Less - ]</a></p>
         </div>
 
 
         <p>RHIZOMES OF A GREEN FUTURE — (Working and Projected*) Papers, Articles and Writings </p>
 
         <ul>
-            <li>Oikonomia: Economics for the Anthropocene (Technical title: ‘Neoclassical’ economics as a subdomain of
-                oikonomia —modeling the systemic dysfunctions of growing market economies ) (Book)</li>
-            <li>Meaningful Social Research in Turbulent Times</li>
+            <li><em>Oikonomia: Economics for the Anthropocene</em> (Technical title: <em>
+                    ‘Neoclassical’
+                    economics as a subdomain of
+                    oikonomia —modeling the systemic dysfunctions of growing market economies
+                </em> ) (Book)</li>
+            <li><em>Meaningful Social Research in Turbulent Times</em></li>
             <li>The failing methodology of the social disciplines, the incipient overhauls of epistemology, history and
                 economics, and three key institutional catalysts of climate-stabilizing “system change.”</li>
-            <li>Ivan Illich’s compass : navigating the systemic crisis of economics and the threat of radical climate
-                disruption</li>
-            <li>Incompatibilities of Climate Stability with Modern Civilization’s Founding Ideas</li>
-            <li>History Beyond Progress — beyond new numbers: a meaningful account of past and future after energy-intensive
-                industrial civilization</li>
-            <li>Le Monde au-delà du développement –La coexistence pacifique comme axe de référence de la pensée et de
-                l'organisation sociales (juillet 2001)</li>
-            <li>Interpersonal Comparability of Utility on the Basis of Strict Ordinality Assumptions</li>
+            <li><em>
+                    Ivan Illich’s compass : navigating the systemic crisis of economics and the threat of radical climate
+                    disruption
+                </em></li>
+            <li><em>Incompatibilities of Climate Stability with Modern Civilization’s Founding Ideas</em>
+            </li>
+            <li><em>
+                    History Beyond Progress — beyond new numbers: a meaningful account of past and future after
+                    energy-intensive
+                    industrial civilization
+                </em></li>
+            <li><em>
+                    Le Monde au-delà du développement –La coexistence pacifique comme axe de référence de la pensée et de
+                    l'organisation sociales (juillet 2001)
+                </em></li>
+            <li><em>Interpersonal Comparability of Utility on the Basis of Strict Ordinality
+                    Assumptions</em></li>
         </ul>
     </article>
 </template>
