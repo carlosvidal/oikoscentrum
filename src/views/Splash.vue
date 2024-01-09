@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oikos Centrum</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-</head>
-
-<body>
+<template>
     <div class="bg">
         <div class="slide" style="z-index: 1;">
             <h1>
@@ -34,20 +23,7 @@
             </h3>
         </div>
     </div>
+</template>
 
-    <script>
-        var current = 0,
-            slides = document.getElementsByClassName("slide");
-
-        setInterval(function () {
-            for (var i = 0; i < slides.length; i++) {
-                slides[i].style.opacity = 0;
-            }
-            current = (current != slides.length - 1) ? current + 1 : 0;
-            slides[current].style.opacity = 1;
-        }, 3000);
-    </script>
-
-</body>
-
-</html>
+<script setup>
+</script>
